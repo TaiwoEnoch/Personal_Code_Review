@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class="center">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates inventore esse doloremque necessitati
+  </p>
+</div>
+  <form action="" id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Please enter your name" required />
+    <label for="email" id="email-label">Email:</label><input type="email" name="email" id="email" placeholder="Enter your email"
+        required>
+    <label for="number" id="number-label">Age:</label>
+      <input type="number" name="number" min='10' max="90" id="number"
+        placeholder="Age">
+
+      <div class="group-dropdown">
+        <select id="dropdown">
+          <option value="One">one</option>
+          <option value="Two">Two</option>
+          <option value="Three">Three</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+
+      <div class="group-radoi">
+        <label>
+          <input value="first_radio" type="radio" name="first_radio" id="first_radio" />
+          First
+        </label>
+        <input type="radio" value="seconde_radio" name="first_radio" id="seconde_radio" />Seconde
+        </label>    
+      </div>
+
+      <div class="check-box">
+        <label>
+          <input type="checkbox" name="first_checkbox" id="first_checkbox" value="first" />
+          First
+        </label>
+        <input type="checkbox" name="seconde_checkbox" id="seconde_checkbox" value="second"/>Seconde
+        </label>
+    
+      </div>
+    
+    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+
+  <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
