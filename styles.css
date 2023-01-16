@@ -1,0 +1,38 @@
+body {
+  background: navy;
+  color: #fff;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+
+.group-dropdown {
+  width: 100%;
+}
+
+label,
+input,
+textarea {
+  padding: 1rem 0;
+}
+
+input,
+textarea {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  color: aliceblue;
+}
